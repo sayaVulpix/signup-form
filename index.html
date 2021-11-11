@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Sign-up Form</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="container-box">
+            <div class="text-area">
+            <h1>Learn to code by watching others</h1>
+            <p class="up-p">See how experienced developers solve problems in real-time.
+                Watching scripted tutorials is great, but undnerstanding how developers think is invaluable.
+            </p>
+        </div>
+            <div class="right">
+                <button class="trial">
+                    <p class="button-p"><span>Try it free 7 days</span> then $20/mo. thereafter</p>
+                </button>
+                <form class="form" id="form" action="">
+                    <div class="form-control">
+                        <input type="text" id="first-name"  placeholder="First Name">
+                        <img class="img-error" src="images/icon-error.svg" alt="">
+                        <label for="first-name"></label>
+                        <small>Error message</small>
+                    </div>
+                    <div class="form-control">
+                        <input type="text" id="last-name" placeholder="Last Name">
+                        <img class="img-error" src="images/icon-error.svg" alt="">
+                        <label for="last-name"></label>
+                        <small>Error message</small>
+                    </div>
+                    <div class="form-control">
+                        <input type="text" id="email" placeholder="Email Address">
+                        <img class="img-error" src="images/icon-error.svg" alt="">
+                        <label for="email"></label>
+                        <small>Error message</small>
+                    </div>
+                    <div class="form-control">
+                        <input type="password" id="password" placeholder="Password">
+                        <img class="img-error" src="images/icon-error.svg" alt="">
+                        <label for="password"></label>
+                        <small>Error message</small>
+                    </div>
+
+                    <button class="btn-form" type="submit">Claim your free trial</button>
+                    <p class="terms">By clicking the button, you are agreeing to our <span class="span-form">Terms and
+                            Services</span></p>
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
